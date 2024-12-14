@@ -21,7 +21,7 @@ const CustomCard = () => {
             style={{
               fontFamily: "times new roman",
               fontSize: 21,
-              //   padding: "1rem",
+              padding: "1rem",
             }}
           >
             Lizards are a widespread group of squamate reptiles, with over 6,000
