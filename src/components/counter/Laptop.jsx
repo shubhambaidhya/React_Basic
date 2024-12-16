@@ -10,10 +10,22 @@ const Laptop = () => {
         variant="contained"
         color="success"
         onClick={() => {
-          setName("HP Omen");
+          setName("HP Omen 16");
+        }}
+        style={{
+          margin: "1rem",
         }}
       >
         Click me
+      </Button>
+      <Button
+        variant="contained"
+        color="info"
+        onClick={() => {
+          setName("Acer Helios 300");
+        }}
+      >
+        Reset
       </Button>
     </Box>
   );
