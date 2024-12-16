@@ -1,5 +1,8 @@
 import React from "react";
 import Laptop from "./components/counter/Laptop";
+import Animal from "./components/counter/Animal";
+import Student from "./components/counter/Student";
+import Actors from "./components/counter/Actors";
 
 function App() {
   return (
@@ -7,7 +10,10 @@ function App() {
       {/* <CustomButton /> */}
       {/* <CustomTypography /> */}
       {/* <Counter /> */}
-      <Laptop />
+      {/* <Laptop /> */}
+      {/* <Animal /> */}
+      {/* <Student /> */}
+      <Actors />
     </div>
   );
 }
